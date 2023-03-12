@@ -4,7 +4,41 @@ import styles from '../styles/Home.module.css';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
+
+      <div >
+        <div className={styles.header_logo}>
+          <div><img src='/inEle1.svg'/></div>
+          
+          {/* <img src='/Vector14Stroke.svg' /> */}
+          <div><img src='/Vector13Stroke.svg' /></div>
+          
+          {/* <img src='/en.svg'/> */}
+          <div><img src='/en1.svg'/></div>
+          
+          {/* <img src='/Ele.svg'/> */}
+          {/* <img src='/inEle.svg'/> */}
+          
+        </div>
+        <div className={styles.header_navbar}>
+          <div>Home</div>
+          <div>Series</div>
+          <div>Ranking</div>
+          <div>Blogs</div>
+          <div>News</div>
+          <div>
+            <div>How to play</div>
+          </div>
+          <div>Login</div>
+          <div>
+          <div>Create Account</div>
+          </div>
+
+        </div>
+      </div>
+      
+
+
+      {/* <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -47,9 +81,9 @@ export default function Home() {
             </p>
           </a>
         </div>
-      </main>
+      </main> */}
 
-      <footer>
+      {/* <footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -58,9 +92,9 @@ export default function Home() {
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
         </a>
-      </footer>
+      </footer> */}
 
-      <style jsx>{`
+      {/* <style jsx>{`
         main {
           padding: 5rem 0;
           flex: 1;
@@ -109,7 +143,7 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
-      `}</style>
+      `}</style> */}
     </div>
   )
 }

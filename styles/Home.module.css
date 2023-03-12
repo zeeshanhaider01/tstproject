@@ -1,4 +1,25 @@
-.container {
+.header_logo{
+  position: absolute;
+  width: 11.5vw; /*166px;*/
+  height: 5.8vw; /*54px*/
+  left: 6.94vw; /*100px;*/
+  top: 33px;
+
+}
+.header_navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4.3vw;    /*49px;*/
+  position: absolute;
+  width: 50.97vw; /*734px*/  /**/
+  height: 23px;
+  left: 24.5vw; /*353px */
+  top: 48px;
+}
+
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -88,4 +109,4 @@
     width: 100%;
     flex-direction: column;
   }
-}
+} */
