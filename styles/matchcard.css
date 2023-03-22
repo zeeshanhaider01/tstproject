@@ -1,0 +1,266 @@
+/********************match card********************/
+.matchcard{
+    position: relative;
+    width: 396px;
+    height: 240px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 14px;
+  }
+  
+  .matchcard__mainheading{
+    display: flex;
+    margin: 12px;
+    justify-content: space-between;
+  }
+  
+  .matchcard__mainheading_logo{
+    position: relative;
+    width: 42px;
+    height: 37.09px;
+  }
+  
+  .imgclass{
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .matchcard__mainheading_seriesname{
+    display: flex;
+    position: relative;
+  }
+  
+  .matchcard__mainheading_seriesname__text{
+    position: relative;
+    width: 134px;
+    height: 25px;
+    top: 2px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #313131;
+  }
+  
+  .matchcard__mainheading_timediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    width: 84px;
+    height: 35px;
+    background-color: #FAFAFA;
+    border-radius: 17.5px;
+  }
+  
+  .matchcard__mainheading_time{
+    width: 64px;
+      height: 15px;
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      letter-spacing: 0.5px;
+      color: #313131;
+  }
+  
+  .matchcard__logosdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding: 9px 48px 0px 48px;
+  }
+  
+  .matchcard__logosdiv__teamlogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  }
+  
+  .teamimgdiv{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 11px;
+  }
+  
+  .teamimgdiv__img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .matchcard__logosdiv__teamlogo_title{
+    width: 34px;
+    height: 20px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #313131;
+  }
+  
+  .matchcard__logosdiv__Vsmaindiv{
+    position: absolute;
+    top: 87px;
+    left: 180.5px;
+    width: 35px;
+    height: 35px;
+  }
+  
+  .matchcard__logosdiv__Vsmaindiv__subdiv{
+    display: flex;
+    position: relative;
+  }
+  
+  .matchcard__logosdiv__Vsmaindiv__subdiv__logo{
+      width: 35px;
+      height: 35.47px;
+      background: #FFFFFF;
+  }
+  
+  .matchcard__logosdiv__Vsmaindiv__subdiv__text{
+    position: relative;
+    width: 20px;
+    height: 25px;
+    left: -22px;
+    top: 16px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #313131;
+  }
+  
+  .matchcard__logosdiv__teamlogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  }
+  
+  .teamimgdiv{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 15px 10px; */
+    /* gap: 10px; */
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    /* background-color: lightblue; */
+    border: 1px solid #EBEBEB;
+    border-radius: 11px;
+  }
+  
+  .teamimgdiv__img{}
+  
+  .matchcard__logosdiv__teamlogo_title{
+    width: 34px;
+    height: 20px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #313131;
+  }
+  
+  .matchcard__datetime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 131px;
+    width: 396px;
+  }
+  
+  .matchcard__datetime__time{
+    display: flex;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    color: #313131;
+  }
+  
+  .matchcard__datetime__date{
+    display: flex;
+      justify-content: center;
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      letter-spacing: 0.5px;
+      text-transform: capitalize;
+      color: #313131;
+  }
+  
+  .matchcard__createbtn{
+    display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 174px;
+      width: 396px;
+      height: 54px;
+  }
+  
+  .matchcard__createbtndiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 372px;
+    height: 54px;
+    border-radius: 27px;
+    background: linear-gradient(94.76deg, #FFB84F 3.79%, #FF9900 76.73%);
+    box-shadow: 0px 15px 30px rgba(255, 153, 0, 0.1);
+      
+  }
+  
+  .matchcard__createbtndiv__btn{
+    width: 189px;
+    height: 20px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
