@@ -5,6 +5,7 @@ import MainNavbar from './mainnavbar.js';
 import SecNavbar from './2ndnavbar.js';
 import Scrollbarmain from './scrolbar.js';
 import News from './new.js';
+import Exp from './exp.js'
 // import HorizontalScrollBar from './exp.js'
 
 export default function Home() {

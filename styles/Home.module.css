@@ -149,6 +149,25 @@ color: #A5A5A5
   overflow-x: hidden;
   /* overflow-y: none; */
 }
+
+.scrollbar_btndivone{
+  position: absolute;
+  display: inline;
+  top: 130px;
+  left: 2.85vw;
+  z-index: 1;
+}
+.scrollbar_btn{
+  border: none;
+  background-color: transparent;
+}
+.scrollbar_btndivtwo{
+  display: inline;
+  position: absolute;
+  top: 130px;
+  right: 2.85vw;
+}
+
 /********************match card********************/
 .matchcard{
   position: relative;
