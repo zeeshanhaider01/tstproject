@@ -1,0 +1,11 @@
+.content{
+    overflow-y: auto;
+    height: 73.4vh;
+    position: relative;
+    background-color: none;
+    top: 120px;
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}

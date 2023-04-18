@@ -1,0 +1,56 @@
+@media screen and (max-width:414px) {
+    .home{
+        height: 98vh;
+    }
+    .home1{
+        overflow: hidden;
+        height: 600px;
+    }
+    .home2{
+        display: none;
+    }
+    
+    .content{
+        position:   relative;
+        margin: 20px 16px 20px;
+        background: transparent;
+        overflow-y:  auto;
+        top: 50px;
+    }
+    .content::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .content_matchcarddiv{
+        width:100%;
+        height:auto;
+    }
+    .matchcarddiv_matchcardlist{
+        width:100%
+    }
+    .divider{
+        color:black;
+        font-size: 50px;
+        font-weight: 500;
+        margin: 0px 0px;
+    }
+    .menu{
+        margin: 5px 0px;
+        overflow-y: auto;
+    }
+    /* .menu::-webkit-scrollbar{
+        display: none;
+    } */
+}
+
+@media screen and (min-width:800px){
+    .mainhome{
+        overflow-y: hidden;
+    }
+    .home1{
+        display: none;
+    }
+    .home2{
+        display: block;
+    }
+}

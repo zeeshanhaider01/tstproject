@@ -1,3 +1,12 @@
+.Appdiv{
+  width: 100vw;
+  height: 100vh;
+}
+@media screen and (max-width:414px) {
+  .Appdiv{
+    overflow: hidden;
+  }
+}
 .mainnavbardiv{
   position: fixed;
   top:0px;
@@ -116,7 +125,7 @@ color: #A5A5A5
   /* font-family: 'Plus Jakarta Sans'; */
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 23px;
   letter-spacing: 0.005em;
   text-transform: uppercase;
@@ -127,7 +136,7 @@ color: #A5A5A5
   color: #FF9900;
 }
 
-/* scrollbar start */
+/********************scrollbar start********************/
 .scrollbar{
   position: relative;
   top: 175px;
@@ -144,6 +153,7 @@ color: #A5A5A5
   gap:24px;
   width: 100vw;
   background: linear-gradient(270deg, #FFFFFF 2.5%, rgba(255, 255, 255, 0) 48.62%, rgba(255, 255, 255, 0) 98.75%);
+  /* background-color: brown; */
   height: 251px;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -167,15 +177,53 @@ color: #A5A5A5
   top: 130px;
   right: 2.85vw;
 }
+/***************************************@media screen width:800px to 1200px********************************************/
+@media screen and (min-width:800px) and (max-width:1200px){
+
+}
+/***************************************@media screen width:414px********************************************/
+@media screen and (max-width:414px){
+  .scrollbar{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 240px;
+    padding: 0px 0px 0px 0px;
+    /* border: 1px solid #ccc;*/
+    
+  }
+
+  .scrollbar__content{
+    display: flex;
+    flex-direction: row;
+    gap:12px;
+    width: 100%; /*width: 93vw;*/
+    background: linear-gradient(270deg, #FFFFFF 2.5%, rgba(255, 255, 255, 0) 48.62%, rgba(255, 255, 255, 0) 98.75%);
+    height: 251px;
+    overflow: auto;
+  }
+
+  .scrollbar__content::-webkit-scrollbar{
+    display:none;
+  }
+  .scrollbar_btndivone{
+    display: none;
+  }
+  .scrollbar_btndivtwo{
+    display: none;
+  }
+}
 
 /********************match card********************/
 .matchcard{
   position: relative;
-  width: 396px;
-  height: 240px;
+  width: 398px;
+  height: 242px;
   background: #FFFFFF;
   border: 1px solid #EBEBEB;
   border-radius: 14px;
+  /* background-color: green; */
+  box-sizing: border-box;
 }
 
 .matchcard__mainheading{
@@ -244,8 +292,9 @@ color: #A5A5A5
 .matchcard__logosdiv{
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  width: 396px;
   padding: 9px 48px 0px 48px;
+  /* background-color: darkslategray; */
 }
 
 .matchcard__logosdiv__teamlogo{
@@ -438,7 +487,103 @@ color: #A5A5A5
   text-transform: capitalize;
   color: #FFFFFF;
 }
+/****************************************@media screen width:414px****************************************/
+@media screen and (max-width:414px) {
+    .matchcard{   /*changed*/
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 315px;
+      height: 240px;
+      background: #FFFFFF;
+      border: 1px solid #EBEBEB;
+      border-radius: 14px;
+    }
+    
+    .matchcard__mainheading{  /*changed*/
+      display: flex;
+      margin: 12px;
+      width: 291px;
+      position: relative;
+      left: -1px;
+      justify-content: space-between;
+    }
+    
+    .matchcard__mainheading_seriesname__text{ /*changed*/
+      position: relative;
+      width: 134px;
+      height: 25px;
+      top: 2px;
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: -0.5px;
+      color: #313131;
+    }
+    
+    .matchcard__logosdiv__teamlogo_title{ /*changed*/
+      width: 34px;
+      height: 20px;
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 13px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.5px;
+      color: #313131;
+    }
 
+    .matchcard__logosdiv{ /*changed*/
+      display: flex;
+      justify-content: space-between;
+      width: 280px;
+      padding: 9px 9px 0px 8px;
+    }
+    
+    .matchcard__logosdiv__Vsmaindiv{  /*changed*/
+      position: absolute;
+      top: 87px;
+      left: 142.5px;
+      width: 35px;
+      height: 35px;
+    }
+    
+    .matchcard__datetime{ /*changed*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 131px;
+      width: 315px;
+    }
+    .matchcard__createbtndiv{/*changed*/
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 372px;
+      height: 48px;
+      border-radius: 27px;
+      background: linear-gradient(94.76deg, #FFB84F 3.79%, #FF9900 76.73%);
+      box-shadow: 0px 15px 30px rgba(255, 153, 0, 0.1);
+        
+    }
+    .matchcard__createbtn{  /*changed*/
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 174px;
+      width: 215px;
+      height: 54px;
+    }
+    
+} 
 /*****************************************News div*****************************************/
 
 .newsmaindiv{
@@ -457,11 +602,11 @@ color: #A5A5A5
   height: 38px;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 38px;
   letter-spacing: -0.005em;
   text-transform: capitalize;
-  color: #000000;
+  color: #313131;
 }
 .newsmaindiv_subdiv1st_newsheadingdiv_text{}
 .newsmaindiv_subdiv1st_imgdiv{}
@@ -560,7 +705,7 @@ color: #A5A5A5
 .newsmaindiv_subdiv2nd_feediv{
   position: relative;
   width: auto;
-  height: 365px;
+  height: 410px;
 }
 
 .newsmaindiv_subdiv2nd_1stdiv{
@@ -633,3 +778,226 @@ color: #A5A5A5
 .newsmaindiv_subdiv2nd_1stdiv_textdiv_1stext{}
 .newsmaindiv_subdiv2nd_1stdiv_textdiv_2ndtext{}
 .newsmaindiv_subdiv2nd_1stdiv_textdiv_3rdtext{} */
+
+/***************************************@media screen max width:414px********************************************/
+@media screen and (max-width:414px){ 
+  .newsmaindiv{/*changed*/
+    position: relative;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 0px 0vw;
+    overflow-x: auto;
+  }
+  .newsmaindiv::webkit-scrollbar{/*changed*/
+    display: none;
+  }
+  .newsmaindiv_subdiv1st{/*changed*/
+    overflow-x: clip;
+    overflow-y: clip;
+  }
+  .newsmaindiv_subdiv1st::-webkit-scrollbar{/*changed*/
+    display: none;
+  }
+  .newsmaindiv_subdiv1st_newsheadingdiv{
+    position: relative;
+    width: 199px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: -0.005em;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .newsmaindiv_subdiv1st_newsheadingdiv_text{}
+  .newsmaindiv_subdiv1st_imgdiv{
+    position: relative;
+    width: 381px;
+    height: auto;
+  }
+  .newsmaindiv_subdiv1st_imgdiv_img{/*changed*/
+    position: relative;
+    width: 381px;
+    height: 233px;
+    top: 15px;
+    border-radius: 14px
+  }
+  .newsmaindiv_subdiv1st_imgdiv_img_img{/*changed*/
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .newsmaindiv_subdiv1st_imgdiv_textdivmain{
+    width: 357px;
+    height: auto;
+    position: absolute;
+    top: 136px;
+    left: 24px;
+    color: white;
+  }
+  .newsmaindiv_subdiv1st_imgdiv_textdivmain_text1st{
+    width: 305px;
+    height: 18px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+  }
+  .newsmaindiv_subdiv1st_imgdiv_textdivmain_text2nd_div{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 357px;
+    height: 48px;
+    top: 8px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+  .newsmaindiv_subdiv1st_imgdiv_textdivmain_text2nd_div_text1st{
+    position: relative;
+    width: 303px;
+    height: 48px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    word-wrap: break-word;
+  }
+  .newsmaindiv_subdiv1st_imgdiv_textdivmain_text2nd_div_text2nd{
+    position: absolute;
+    top: -154px;
+    left: 230px;
+    width: 129px;
+    height: 18px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+  .newsmaindiv_subdiv2nd{
+    width: 381px;
+    height: auto;
+    padding: 30px 0px 0px 0px;
+    position: relative;
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    overflow-x: clip;
+    overflow-y: clip;
+  }
+  .newsmaindiv_subdiv2nd::-webkit-scrollbar{
+    display: none;
+  }
+  .newsmaindiv_subdiv2nd_titlediv{
+    position: relative;
+    width: 178px;
+    height: 38px;
+    left: 10px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: -0.005em;
+    text-transform: capitalize;
+    color: #313131;
+  }
+  .newsmaindiv_subdiv2nd_titlediv_text{}
+  
+  .newsmaindiv_subdiv2nd_feediv{
+    position: relative;
+    width: 100%;
+    height: 410px;
+  }
+  
+  .newsmaindiv_subdiv2nd_1stdiv{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    top: 15px;
+    word-wrap: break-word;
+  }
+  .newsmaindiv_subdiv2nd_1stdiv_imgdiv{
+    width: 170px;
+    height: 170px;
+    background: linear-gradient(180deg, rgba(49, 49, 49, 0) 50%, #313131 92.31%);
+    border-radius: 12px;
+  }
+  .newsmaindiv_subdiv2nd_1stdiv_imgdiv_img{}
+  .newsmaindiv_subdiv2nd_1stdiv_textdiv{
+    position: relative;
+    width: 200px;
+  }
+  .newsmaindiv_subdiv2nd_1stdiv_textdiv_1stext{
+    width: 115px;
+      height: 18px;
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      text-transform: capitalize;
+      color: #313131;
+  }
+  .newsmaindiv_subdiv2nd_1stdiv_textdiv_2ndtext{
+    width: 201px;
+    height: 56px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.5px;
+    color: #313131;
+    word-wrap: break-word;
+  }
+  .newsmaindiv_subdiv2nd_1stdiv_textdiv_3rdtext{
+    width: 218px;
+    position: relative;
+    top: 0px;
+    height: 60px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    color: #313131;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .newsmaindiv_subdiv2nd_2ndtdiv{
+    position: relative;
+    width: 381px;
+    height: 170px;
+    top: 26px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+}

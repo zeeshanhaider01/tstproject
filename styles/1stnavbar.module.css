@@ -1,0 +1,352 @@
+@media screen and (min-width:1200px) {
+  .Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 12.9vh;
+    flex-direction: row;
+    padding-inline: 0px;
+    background-color: #FAFAFA;
+    margin: 0px 6.94vw;
+  }
+  /****************Logo div******************/
+  .MainLogodiv{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 30vw;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    width: 11.52vw;
+    left: 0px;
+    top: 0;
+  } 
+  .imgcontainer{
+    position: relative;
+    width: 94px;
+    height: auto;
+    top: 15px;
+  }
+  .imgcontainer2{
+    position: relative;
+    width: 49.6px;
+    height: auto;
+    top: 14px;
+    right: 2px;
+  }
+  .imgcontainer3{
+    position: relative;
+    width: 46.26px;
+    height: auto;
+    top: 15px;
+    right: 1.8vw;
+  }
+  .logoimg{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  /******************************************/
+    .header_1stnavbar_subdiv1{
+      display: flex;
+      background-color: transparent;
+      position: relative;
+      width: 100vw;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 0;
+      top: 5px;
+      width: 11.52vw;
+    }
+    /* .header_1stnavbar_menu{
+      position: absolute;
+      right: 20vw;
+      height: 50px;
+      width: 46px;
+      background-color: lavender;
+      border-radius: 15%;
+    } */
+    .Menu{
+      display: none;
+    }
+    .Menu2{
+      background-color: transparent;
+      position: relative;
+      left: 0vw;
+      width: 50.97vw;
+      height: 8.33vh;
+      font-family: inherit;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 54px;
+      letter-spacing: 0.005em;
+      color: #A5A5A5;
+      background-color: #FAFAFA;
+      border-bottom: none;
+    }
+    .Menu2:hover{
+      /* color:#313131; */
+    }
+    .header_1stnavbar_subdiv2{
+      background-color: transparent;
+      display: flex;
+      justify-content: space-between;
+      margin: 1vw 0vw 0vw 0vw;
+      width: 13.88vw;
+      box-sizing: border-box;
+    }
+    .header_1stnavbar_subdiv2_buttondiv1{
+      display: none;
+    }
+    .button {
+      font-family: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFB84F;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        width: 13.88vw;
+        height: 45px;
+        gap: 10px;
+        box-shadow: 0px 15px 30px rgba(255, 153, 0, 0.1);
+        color: white;
+        border-radius: 27px;
+        border:none;
+    
+    }
+    .button:hover{
+      color:#FFFFFF
+    }
+    .logo{
+      display: none;
+    }
+}
+
+/****************************@media screen and (min-width:800px) and (max-width:1200)*****************************/
+@media screen and (min-width:800px) and (max-width:1199px) {
+  .Header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 8.33vh;
+    flex-direction: row;
+    padding-inline: 0px;
+    background-color: #FAFAFA;
+  }
+  /****************Logo div******************/
+  .MainLogodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* width: 30vw; */
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    width: 133px;
+    left: 0px;
+    top: 0;
+  } 
+  .imgcontainer{
+    position: relative;
+    width: 94px;
+    height: auto;
+    top: 15px;
+  }
+  .imgcontainer2{
+    position: relative;
+    width: 49.6px;
+    height: auto;
+    top: 14px;
+    right: 2px;
+  }
+  .imgcontainer3{
+    position: relative;
+    width: 46.26px;
+    height: auto;
+    top: 15px;
+    /* right: 2.7vw; */
+    right: 23.5px
+  }
+  .logoimg{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  /******************************************/
+    .header_1stnavbar_subdiv1{
+      display: flex;
+      background-color: transparent;
+      position: relative;
+      width: 100vw;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 6.94vw;
+      top: 5px;
+      width: 11.52vw;
+    }
+    /* .header_1stnavbar_menu{
+      position: absolute;
+      right: 20vw;
+      height: 50px;
+      width: 46px;
+      background-color: lavender;
+      border-radius: 15%;
+    } */
+    .Menu{
+      position: relative;
+      left: 10vw;
+      width: 70vw;
+      height: 8.33vh;
+      font-family: inherit;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 54px;
+      letter-spacing: 0.005em;
+      color: #A5A5A5;
+      background-color: #FAFAFA;;
+    }
+    .Menu2{
+      display: none;
+    }
+    .header_1stnavbar_subdiv2{
+      display: flex;
+      justify-content: space-between;
+      margin: 1vw 23vw 0vw 23vw;
+      width: 96vw;
+      box-sizing: border-box;
+    }
+    .button {
+      font-family: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFB84F;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        width: 18vw;
+        height: 45px;
+        gap: 10px;
+        box-shadow: 0px 15px 30px rgba(255, 153, 0, 0.1);
+        color: white;
+        border-radius: 27px;
+        border:none;
+    
+    }
+    .button:hover{
+      color:#FFFFFF
+    }
+    .logo{
+      display: none;
+    }
+}
+
+/**************************************@media screen and (max-width:414px) **********************************/
+@media screen and (max-width:414px) {
+    .Header{
+      padding-inline: 0px;
+      background: linear-gradient(270deg, #FFFFFF 2.5%, rgba(255, 255, 255, 0) 48.62%, rgba(255, 255, 255, 0) 98.75%);
+    }
+    /****************Logo div******************/
+    .MainLogodiv{
+      position: relative;
+      width: 30vw;
+      height: 54px;
+      left: 46px;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } 
+    .imgcontainer{
+      position: relative;
+      width: 94px;
+      height: auto;
+      top: 15px;
+    }
+    .imgcontainer2{
+      position: relative;
+      width: 49.6px;
+      height: auto;
+      top: 14px;
+      right: 2px;
+    }
+    .imgcontainer3{
+      position: relative;
+      width: 46.26px;
+      height: auto;
+      top: 15px;
+      right: 22px;
+    }
+    .logoimg{
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+    }
+    /******************************************/
+      .header_1stnavbar_subdiv1{
+        display: flex;
+        background-color: transparent;
+        position: relative;
+        width: 100vw;
+        height: 50px;
+      }
+      .header_1stnavbar_menu{
+        position: absolute;
+        right: 20vw;
+        height: 50px;
+        width: 46px;
+        background-color: lavender;
+        border-radius: 15%;
+      }
+      /* .Menu{
+        background-color: aqua;
+        border-radius: 2px;
+      } */
+      .header_1stnavbar_subdiv2{
+        display: flex;
+        justify-content: space-between;
+        margin: 4vw 13vw 0vw 18vw;
+      }
+      .button {
+        font-family: inherit;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #FFB84F;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: -0.5px;
+          width: 31vw;
+          height: 35px;
+          gap: 10px;
+          box-shadow: 0px 15px 30px rgba(255, 153, 0, 0.1);
+          color: white;
+          border-radius: 27px;
+          border:none;
+      
+      }
+      .button:hover{
+        color:#FFFFFF
+      }
+      .logo{
+        display: none;
+      }
+  }
+  
